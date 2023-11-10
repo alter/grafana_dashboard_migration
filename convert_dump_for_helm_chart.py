@@ -1,16 +1,6 @@
 #!/usr/bin/env python3
 
-import requests
 import json
-import os
-
-# Grafana settings for the target instance
-BASE_URL = "https://grafana-source.domain.tld/api"
-HEADERS = {
-    "Authorization": "Bearer glsa_6Sh12345678900E5xfpxLCMepErkXoKh_3d924635",
-    "Content-Type": "application/json"
-}
-
 
 # Folder ID where you want to save the dashboards
 SAVE_FOLDER = 'prepared_dashboards'
